@@ -1,0 +1,42 @@
+.main-bg {
+	background: #43cea2;
+	background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+	background: linear-gradient(to right, #185a9d, #43cea2);
+}
+
+.text-color {
+	background: -webkit-linear-gradient(left, #00f298, #07f7f7);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-bottom: 24px;
+	font-size: 45px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.about-color {
+	background: -webkit-linear-gradient(left, #00f298, #07f7f7);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block;
+	font-size: 24px;
+	margin-right: 10px;
+	text-transform: uppercase;
+}
+.resume-button {
+	background: -webkit-linear-gradient(left, #00f298, #07f7f7);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block;
+	font-size: 24px;
+	font-weight: 700;
+	margin-right: 10px;
+	text-transform: uppercase;
+}
+
+.contact-btn:hover {
+	background-color: #17d397;
+	font-weight: 600;
+	color: #22252c;
+	-webkit-box-shadow: 0 1px 20px rgb(22 213 144 / 80%);
+	box-shadow: 0 1px 20px rgb(22 213 144 / 80%);
+}
